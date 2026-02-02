@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(255, 182, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 90vw;
+    max-width: 1000px;
+    top: 125px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.img{
+    position: relative;
+    bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 1vw;
+    height: 1vh;
+    padding: 10px;
+}
+.text{
+    position: relative;
+    top: 15vh;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+pre{
+    position: relative;
+    right: 7vw;
+    font-size: 0.68rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -13px;
+}
+.song{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.song a{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 17vh;
+    color: black;
+    background-color: rgb(255, 182, 193);
+    width: 25vw;
+    height: 4vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    font-size: 1rem;
+}
